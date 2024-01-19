@@ -1,5 +1,5 @@
 # release-date-tracker
-IMDB Upcoming Releases Scraper
+Upcoming Releases Scraper
 
 Overview
 This Java application scrapes upcoming movie and TV show releases from IMDB, presenting them in a user-friendly JavaFX GUI. It provides a convenient way to stay updated with the latest entertainment releases.
