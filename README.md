@@ -2,7 +2,7 @@
 Upcoming Releases Scraper
 
 Overview
-This Java application scrapes upcoming movie and TV show releases from IMDB, presenting them in a user-friendly JavaFX GUI. It provides a convenient way to stay updated with the latest entertainment releases.
+This Java application scrapes upcoming movie and TV show releases from IMDB, presenting them in a user-friendly JavaFX GUI. It provides a convenient way to stay updated with the latest entertainment releases. Mainly developed as an exercise and not intended for any other use than for learning purposes. 
 
 Features
 - IMDB Data Scraping: Extracts release data for movies and TV shows.
@@ -42,18 +42,6 @@ Structure
 - WebScraper.java: Handles the web scraping logic.
 - WebScraperGUI.java: Manages the GUI and user interactions.
 - Additional classes for data management and utility functions.
-
-Contributing
-
-Contributions are welcome. To contribute:
-- Fork the repository.
-- Create a feature branch (git checkout -b feature/YourFeature).
-- Commit your changes (git commit -m 'Add some feature').
-- Push to the branch (git push origin feature/YourFeature).
-- Open a pull request.
-
-License
-- Distributed under the MIT License. See LICENSE for more information.
 
 Contact
 Alexander Svärling - alexandersvarling@gmail.com
