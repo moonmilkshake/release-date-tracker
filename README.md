@@ -54,7 +54,7 @@ Contributions are welcome. To contribute:
 
 License
 - Distributed under the MIT License. See LICENSE for more information.
-- 
+
 Contact
 Alexander Svärling - alexandersvarling@gmail.com
 Project Link: https://github.com/moonmilkshake/release-date-tracker
