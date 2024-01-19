@@ -21,9 +21,9 @@ public class WebScraper {
     private static final String IMDB_MOVIE_URL = "https://www.imdb.com/calendar/sweden";
     private static final String IMDB_TV_URL = "https://www.imdb.com/calendar/?ref_=rlm&region=US&type=TV";
     private static final String IMDB_URL = "https://www.imdb.com";
-    private static String currentYear;
-    private static String nextYear;
-    private static String yearAfterNext;
+    private static final String currentYear;
+    private static final String nextYear;
+    private static final String yearAfterNext;
     private List<Content> data;
     private String contentType;
 
