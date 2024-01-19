@@ -45,4 +45,4 @@ Structure
 
 Contact
 Alexander Svärling - alexandersvarling@gmail.com
-Project Link: https://github.com/moonmilkshake/release-date-tracker
+Project Link: https://github.com/moonmilkshake/release_date_tracker
