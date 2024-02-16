@@ -77,7 +77,7 @@
       <workItem from="1705653533425" duration="1754000" />
       <workItem from="1705655468282" duration="2458000" />
       <workItem from="1705683203874" duration="41000" />
-      <workItem from="1708070354081" duration="508000" />
+      <workItem from="1708070354081" duration="831000" />
     </task>
     <task id="LOCAL−00001" summary="Initial transfer of project into a new repository.">
       <option name="closed" value="true" />
@@ -100,7 +100,21 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1708070630144</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Javadoc update">
+      <option name="closed" value="true" />
+      <created>1708070876510</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1708070876510</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Javadoc update">
+      <option name="closed" value="true" />
+      <created>1708071033114</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1708071033114</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

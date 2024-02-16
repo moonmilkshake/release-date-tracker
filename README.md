@@ -10,18 +10,21 @@ Features
 - Filter and Favorites: Users can filter content by genre and add releases to favorites.
 
 Prerequisites
+
 Before installation, ensure you have the following:
 - Java JDK 11 or later.
 - JavaFX SDK compatible with your JDK version.
 - IDE for Java (e.g., IntelliJ IDEA, Eclipse).
 
 Dependencies
+
 This project relies on the following libraries:
 - javax.mail.jar for email functionalities.
 - jsoup-1.17.1.jar for HTML parsing and web scraping.
 - activation.jar for additional email handling capabilities.
 
 Installation
+
 Clone the Repository:
 - "git clone https://github.com/moonmilkshake/release-date-tracker.git"
 
@@ -44,5 +47,6 @@ Structure
 - Additional classes for data management and utility functions.
 
 Contact
+
 Alexander Svärling - alexandersvarling@gmail.com
 Project Link: https://github.com/moonmilkshake/release_date_tracker
