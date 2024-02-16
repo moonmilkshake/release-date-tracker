@@ -98,7 +98,7 @@ public class WebScraper {
 
         /**
          * Fetches upcoming content releases from a specified URL and processes them into a list of {@code Content} objects.
-         * Utilizes JSoup for HTML parsing. The method filters content based on the current, next, and year after next release dates,
+         * Uses JSoup for HTML parsing. The method filters content based on the current, next, and year after next release dates,
          * and collects information such as titles, genres, top cast, and IMDB URLs. Progress is reported back for UI updates.
          *
          * @return List of upcoming content releases as {@code Content} objects.
