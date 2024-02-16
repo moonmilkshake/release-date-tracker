@@ -97,10 +97,13 @@ public class WebScraper {
         }
 
         /**
-         * Method where scrape is carried out by use of Jsoup. Iterates through different types of Elements in order
-         * to retrieve relevant data for building Content-objects and putting them in an ArrayList.
-         * @return Scraped data is returned.
-         * @throws Exception Uncaught exception.
+         * Fetches upcoming content releases from a specified URL and processes them into a list of {@code Content} objects.
+         * Utilizes JSoup for HTML parsing. The method filters content based on the current, next, and year after next release dates,
+         * and collects information such as titles, genres, top cast, and IMDB URLs. Progress is reported back for UI updates.
+         *
+         * @return List of upcoming content releases as {@code Content} objects.
+         * @throws IOException for network-related errors.
+         * @throws Exception for any other unexpected errors.
          */
         @Override
         protected List<Content> call() throws Exception {
