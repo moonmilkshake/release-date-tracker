@@ -31,11 +31,10 @@ import java.util.List;
 public class WebScraperGUI extends Application {
     private static final int BUTTON_HEIGHT = 30;
     private static final MappedData MAPPED_DATA = new MappedData();
+    private final List<Content> favoriteContent = new ArrayList<>();
     private TableView<Content> tableView;
     private ObservableList<Content> moviesObsList;
     private ObservableList<Content> tvShowObsList;
-    private List<Content> favoriteContent = new ArrayList<>();
-    private ObservableList<Content> favoriteContentObsList;
     private TableColumn<Content, Image> posterColumn;
     private AnchorPane topAnchorPane;
     private AnchorPane bottomAnchorPane;
@@ -99,7 +98,7 @@ public class WebScraperGUI extends Application {
      * Method that handles showing favorite Content via use of popup.
      */
     private void showFavoritesPopup() {
-        favoriteContentObsList = createObservableArrayList(favoriteContent);
+        ObservableList<Content> favoriteContentObsList = createObservableArrayList(favoriteContent);
         ListView<String> popupListView = new ListView<>();
         popupListView.setEditable(false);
 
