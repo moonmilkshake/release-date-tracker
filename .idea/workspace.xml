@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02248312-bc8f-4f0f-8a53-62d86777bc33" name="Changes" comment="Updated readme" />
+    <list default="true" id="02248312-bc8f-4f0f-8a53-62d86777bc33" name="Changes" comment="Minor update to GUI membervariables">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +80,12 @@
       <workItem from="1705655468282" duration="2458000" />
       <workItem from="1705683203874" duration="41000" />
       <workItem from="1708070354081" duration="1064000" />
+      <workItem from="1708329793762" duration="278000" />
+      <workItem from="1708420423887" duration="90000" />
+      <workItem from="1708420600566" duration="1340000" />
+      <workItem from="1708423495116" duration="12000" />
+      <workItem from="1708423574482" duration="15000" />
+      <workItem from="1708423958212" duration="701000" />
     </task>
     <task id="LOCAL−00001" summary="Initial transfer of project into a new repository.">
       <option name="closed" value="true" />
@@ -121,7 +129,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1708071421667</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Minor update to GUI membervariables">
+      <option name="closed" value="true" />
+      <created>1708330062859</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1708330062859</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +185,7 @@
     <MESSAGE value="Small changes to variables in WebScraper" />
     <MESSAGE value="Javadoc update" />
     <MESSAGE value="Updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated readme" />
+    <MESSAGE value="Minor update to GUI membervariables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor update to GUI membervariables" />
   </component>
 </project>

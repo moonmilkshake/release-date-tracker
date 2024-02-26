@@ -13,18 +13,11 @@ import java.util.Arrays;
  */
 public record Content(Image poster, String title, String[] genres, String[] topCast, LocalDate releaseDate, String type, String imdbUrl) {
 
-    /**
-     * Returns an image of the poster. Was needed for the cell value factory to work properly.
-     * @return Image of a poster.
-     */
+
     public Image getPoster() {
         return poster;
     }
 
-    /**
-     * Returns the title of the Content. Was needed for the cell value factory to work properly.
-     * @return String name of Content.
-     */
     public String getTitle() {
         return title;
     }
@@ -67,26 +60,18 @@ public record Content(Image poster, String title, String[] genres, String[] topC
         }
     }
 
-    /**
-     * Method for getting release date. Was needed for cell value factory to work properly.
-     * @return String of release date.
-     */
     public String getReleaseDate() {
         return releaseDate.toString();
     }
 
     /**
-     * Method builds and returns a String with a Contents main attributes.
+     * Builds and returns a String with a Contents main attributes.
      * @return Returns a string with main attributes.
      */
     public String getMainAttributes() {
         return title + " is a " + type.toLowerCase() + " that is to be released " + releaseDate + ".";
     }
 
-    /**
-     * Records toString. Built with relevant attributes.
-     * @return Returns toString.
-     */
     @Override
     public String toString() {
         return "Title: " + title + ",  Genres: " + Arrays.toString(genres) + ", Top cast: " + Arrays.toString(topCast) + ", Release date: " + releaseDate.toString() + ", Type: " + type + ".";
